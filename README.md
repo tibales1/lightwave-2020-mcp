@@ -16,6 +16,24 @@ An [MCP](https://modelcontextprotocol.io) server that lets Claude (or any MCP cl
 **LightWave 3D 2020** — Layout and Modeler — on Windows: build scenes, model, animate, render and
 export FBX for Unreal or Unity.
 
+## LightWave in 10 seconds
+
+```mermaid
+flowchart LR
+    C["🤖 Claude<br/>(through this MCP)"]
+    M["<b>Modeler</b><br/>builds the objects<br/>(the ball, the shards)"]
+    L["<b>Layout</b><br/>the scene: places, animates,<br/>lights and films them"]
+    R["<b>Renderer</b><br/>turns every frame<br/>into a picture"]
+    V["🎬 Video"]
+    C --> M
+    C --> L
+    M -- "objects (.lwo)" --> L
+    L -- "scene (.lws)" --> R
+    R -- "frames (.png)" --> V
+```
+
+**Modeler** is the workshop, **Layout** is the stage, the **Renderer** is the camera shutter.
+
 ![Spell orb demo](demo/spell/Renders/spell_orb.gif)
 
 *The demo above was built entirely through this MCP: the ball modeled in Modeler, the scene, glowing

@@ -1,6 +1,7 @@
 # Spell orb demo
 
-Built entirely through the MCP (2026-10-10):
+**Prompt-built:** Claude made this from natural-language prompts, driving LightWave through the MCP.
+No manual modeling, keyframing or code (2026-10-10):
 
 1. **Modeler** — `MAKEBALL <0.5 0.5 0.5> 64 32 <0 0 0>` (1 m ball, 1986 points / 2048 polygons),
    surface `SpellOrb`; a low-poly shard, a pillar and a ground plane.

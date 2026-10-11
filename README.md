@@ -1,5 +1,17 @@
 # lightwave-2020-mcp
 
+> ### 🤖 100% prompt-built. No hand-written code.
+> **Every line of code, every document, and the demo scene and render in this repository were
+> produced by Claude (Anthropic's AI) from natural-language prompts.** No code was written or edited
+> by a human. The demo was modeled, animated, lit and rendered by Claude driving LightWave through
+> this MCP. The human side was the prompts, installing the two plug-ins, and clicking through a
+> few LightWave dialog boxes.
+>
+> **Prompt-built is not the same as unguided.** The direction, requirements and judgment calls came
+> from [Tom Bales](https://github.com/tibales1), a software architect (6 years, systems architect
+> before that) with 20 years in GIS, navigation systems and game development (Unity, Unreal). The AI
+> wrote it; an experienced architect steered it.
+
 An [MCP](https://modelcontextprotocol.io) server that lets Claude (or any MCP client) drive
 **LightWave 3D 2020** — Layout and Modeler — on Windows: build scenes, model, animate, render and
 export FBX for Unreal or Unity.

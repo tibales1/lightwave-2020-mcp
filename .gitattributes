@@ -1,0 +1,5 @@
+* text=auto
+*.bat text eol=crlf
+*.lwo binary
+*.mp4 binary
+*.gif binary

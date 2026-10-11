@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+# built on first use from the user's own LightWave install
+server/layout_commands.json
+server/modeler_commands.json
+# local render output (the demo keeps only the MP4/GIF)
+demo/spell/Renders/*.png
+spell/
+# internal notes synced from the Claude project
+lightwave-mcp-architecture.md

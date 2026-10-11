@@ -6,6 +6,6 @@ server/layout_commands.json
 server/modeler_commands.json
 # local render output (the demo keeps only the MP4/GIF)
 demo/spell/Renders/*.png
-spell/
+/spell/
 # internal notes synced from the Claude project
-lightwave-mcp-architecture.md
+/lightwave-mcp-architecture.md
